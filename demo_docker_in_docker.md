@@ -46,7 +46,7 @@ Verify that Sysbox's Systemd units have been properly installed, and associated 
 ```bash
 sudo systemctl status sysbox -n20
 ```
-<!--Insert 1.png-->
+![sysbox_installed_check](images/sysbox_installed_check.png)
 
 ## STEP 3: Deploy the sys container (the outside container).
 
@@ -55,13 +55,13 @@ We will use a docker image with systemd + docker in it:
 docker run --runtime=sysbox-runc --name sys-docker -p 80:80 -d nestybox/ubuntu-bionic-systemd-docker
 ```
 Go into the sys docker and see what is running:
-<!--Insert 2.png-->
+![sys_container](images/sys_container.png)
 
 __systemd__ is init and it has started docker. It is quite like a VM.
 
 ## STEP 4: Deploy a container inside the sys container.
 
-<!--Insert 3.png-->
+![inside_container](images/inside_container.png)
 
 From the host machine we can only see the sys container but not the inside container.
 
