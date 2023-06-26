@@ -39,7 +39,7 @@ sudo apt-get install jq
 
 Install sysbox:
 ```bash
-sudo apt-get install ./sysbox-ce_0.6.1-0.linux_amd64.deb
+sudo apt-get install ./sysbox-ce_0.6.2-0.linux_amd64.deb
 ```
 
 Verify that Sysbox's Systemd units have been properly installed, and associated daemons are properly running:
