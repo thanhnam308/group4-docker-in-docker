@@ -11,11 +11,11 @@ The biggest benefit to [__Sysbox__](https://github.com/nestybox/sysbox) approach
 
 # Demo: Using Sysbox To Run Docker in Docker
 
-## STEP 1: Make sure Docker is installed and running properly on your machine.
+### STEP 1: Make sure Docker is installed and running properly on your machine.
 
 Visit [this instruction page](https://docs.docker.com/engine/install/ubuntu/) to see more details how to do it.
 
-## STEP 2: Install Sysbox follow [the instructions](https://github.com/nestybox/sysbox/blob/master/docs/user-guide/install-package.md).
+### STEP 2: Install Sysbox follow [the instructions](https://github.com/nestybox/sysbox/blob/master/docs/user-guide/install-package.md).
 
 Get the package on the web:
 ```bash
@@ -48,7 +48,7 @@ sudo systemctl status sysbox -n20
 ```
 ![sysbox_installed_check](images/sysbox_installed_check.png)
 
-## STEP 3: Deploy the sys container (the outside container).
+### STEP 3: Deploy the sys container (the outside container).
 
 We will use a docker image with systemd + docker in it:
 ```bash
@@ -59,7 +59,7 @@ Go into the sys docker and see what is running:
 
 __systemd__ is init and it has started docker. It is quite like a VM.
 
-## STEP 4: Deploy a container inside the sys container.
+### STEP 4: Deploy a container inside the sys container.
 
 ![inside_container](images/inside_container.png)
 
