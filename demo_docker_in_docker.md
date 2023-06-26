@@ -57,7 +57,7 @@ docker run --runtime=sysbox-runc --name sys-docker -p 80:80 -d nestybox/ubuntu-b
 Go into the sys docker and see what is running:
 ![sys_container](images/sys_container.png)
 
-__systemd__ is init and it has started docker. It is quite like a VM.
+__systemd__ is init and it has started docker.
 
 ### STEP 4: Deploy a container inside the sys container.
 
