@@ -8,3 +8,10 @@ Running Docker in Docker gives developers more flexibility to take advantage of 
 The first is to run CI systems such as GitLab or Jenkins on-premises on Docker containers. In this case, you can run Docker containers for each programming language/dependent middleware in the container and then create Docker images for production use, etc. This has the advantage of nested usage of Docker.
 
 Docker as a sandbox environment. Suppose you want to use a Docker container as an environment isolated from the host environment where the actual work is done. In that case, you can launch a Docker container within that container. Building a sandbox environment inside a container is very easy because the environment can be disposed of by simply destroying the container.
+
+# Docker in Docker Methods
+
+ - Docker in Docker Using DinD
+ - Mounting the Hosts Docker Socket
+ - Using Sysbox To Run Docker in Docker
+
