@@ -29,7 +29,7 @@ sudo docker rm $(docker ps -a -q) -f
 
 Verify that the checksum of the downloaded file fully matches the expected/published one:
 ```bash
-sha256sum sysbox-ce_0.6.2-0.linux_amd64.debsudo docker rm $(docker ps -a -q) -f
+sha256sum sysbox-ce_0.6.2-0.linux_amd64.deb
 ```
 
 Install `jq`:
