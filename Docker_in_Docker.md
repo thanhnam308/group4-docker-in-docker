@@ -1,5 +1,5 @@
 # Introduction
-Docker In Docker (also known as dind) allows developers to run a [Docker](https://blog.packagecloud.io/what-is-docker-a-beginners-guide/) container within an already running Docker container to support CI/CD pipelines and create sandboxed container environments. Running containers this way extends the already robust capabilities of the system to allow developers more flexibility in how they use it.
+Docker In Docker (also known as dind) allows developers to run a [Docker](https://blog.packagecloud.io/what-is-docker-a-beginners-guide/) container within an already running Docker container to support CI/CD pipelines and create sandboxed container environments. 
 
 # Why Would You Run Docker In Docker?
 Running Docker in Docker gives developers more flexibility to take advantage of the tool to accomplish tasks that might be more difficult to accomplish via other means.
