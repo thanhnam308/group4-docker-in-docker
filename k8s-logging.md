@@ -4,7 +4,7 @@ __Kubernetes logging__ is a mechanism that __helps you understand what is happen
 
 The logs are particularly useful for debugging problems and monitoring cluster activity. Most modern applications have some kind of logging mechanism, and container engines are designed to support logging.
 
-## cluster-level logging
+## Cluster-level logging
 
 In a cluster, logs should have a separate storage and lifecycle independent of nodes, pods, or containers. This concept is called __cluster-level logging__. Cluster-level logging architectures require a separate backend to store, analyze, and query logs. Kubernetes does not provide a native storage solution for log data. Instead, there are many logging solutions that integrate with Kubernetes (CloudWatch).
 
